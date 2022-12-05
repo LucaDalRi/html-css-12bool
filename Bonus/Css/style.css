@@ -1,3 +1,54 @@
 .container{
     height: 100%; 
 }
+.row{
+    width: 100%;
+    display: flex; 
+}
+.box{
+    background-color: mediumseagreen;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white; 
+}
+.box2{
+    background-color: mediumseagreen;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid white;  
+}
+.box-interno{
+    background-color: rgb(233, 95, 53);
+    height: 30px;
+    border: 1px solid mediumseagreen;
+    width: 100%;
+}
+.JustConSpBetw{
+    justify-content: space-between;
+}
+.JustConSpAround{
+    justify-content: space-around;
+}
+.JustConCen{
+    justify-content: center;
+}
+.JustConEnd{
+    justify-content: end;
+}
+.align-center{
+    align-items: center;
+}
+.align-end{
+    align-items: flex-end;  
+}
+
+.box2x{
+    background-color: mediumseagreen;
+    height: 100px;
+    display: flex;
+    border: 1px solid white;
+}
